@@ -18,6 +18,12 @@ document.addEventListener("DOMContentLoaded", function() {
         } else if (valor === 3) {
             estadoMensaje.textContent = "¡Terminado, vení a buscarlo!";
             estadoMensaje.classList.add("terminado");
+        if (valor === 4) {
+            estadoMensaje.textContent = "Sin revisar";
+            estadoMensaje.classList.add("sin-revisar")
+        } else if (valor === 5) {
+            estadoMensaje.textContent = "¡Terminado, vení a buscarlo!";
+            estadoMensaje.classList.add("terminado");
         } else {
             estadoMensaje.textContent = "Revise el número, no se encontró su pedido";
             estadoMensaje.classList.add("sin-revisar");
